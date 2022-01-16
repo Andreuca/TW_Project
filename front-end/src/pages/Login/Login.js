@@ -1,5 +1,5 @@
-import "./Login.css";
-import user from "../../images/user.png";
+import "../../static/style/Login.css"
+import user from "../../static/images/user.png";
 import { Link, useNavigate } from "react-router-dom";
 function Login({ setUser }) {
   const navigate = useNavigate();

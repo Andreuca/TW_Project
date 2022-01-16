@@ -3,24 +3,21 @@ import 'bootstrap/dist/js/bootstrap';
 import "../../static/style/grades.css";
 
 import Navbar from "../../Components/Navbar"
-import GradesContainer from './GradesContainer';
+import AllContainer from './AllContainer';
 
-function Grades() {
+function Aprojects() {
     return (
         <html lang="en">
-            <head>    
-                <title>Grades</title>
+            <head>
+                <title>All projects</title>
             </head>
             <body> 
                 <Navbar></Navbar>
-                <GradesContainer></GradesContainer>
+                <AllContainer></AllContainer>
             </body>
         </html>
         
     )
 }
 
-
-                    
-
-export default Grades
+export default Aprojects

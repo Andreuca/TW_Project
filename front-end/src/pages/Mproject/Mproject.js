@@ -3,24 +3,21 @@ import 'bootstrap/dist/js/bootstrap';
 import "../../static/style/grades.css";
 
 import Navbar from "../../Components/Navbar"
-import GradesContainer from './GradesContainer';
+import ProjectContainer from './ProjectContainer';
 
-function Grades() {
+function Mproject() {
     return (
         <html lang="en">
-            <head>    
-                <title>Grades</title>
+            <head>
+                <title>My project</title>
             </head>
             <body> 
                 <Navbar></Navbar>
-                <GradesContainer></GradesContainer>
+                <ProjectContainer></ProjectContainer>
             </body>
         </html>
         
     )
 }
 
-
-                    
-
-export default Grades
+export default Mproject

@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import { useState } from "react";
-import Home from "./pages/Home/Home";
 import Grades from "./pages/Grades/Grades";
-import AllProjects from "./pages/AllProjects/AllProjects";
+import Mproject from "./pages/Mproject/Mproject";
+import Aprojects from "./pages/Aprojects/Aprojects";
 
 
 function App() {
@@ -16,13 +16,14 @@ function App() {
       <Router>
         <Routes>
           {user ? (
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Grades />} />
           ) : (
             <>
-              <Route path="/login" element={<Login setUser={setUser} />} />{" "}
+              <Route path="/" element={<Login setUser={setUser} />} />{" "}
               <Route path="/register" element={<Register />} />
-              <Route path="/grades" element={<Grades />} />
-              <Route path="/allprojects" element={<AllProjects />} />
+              <Route path="/Grades" element={<Grades />} />
+              <Route path="/Mproject" element={<Mproject />} />
+              <Route path="/Aprojects" element={<Aprojects />} />
             </>
           )}
         </Routes>

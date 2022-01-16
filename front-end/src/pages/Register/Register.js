@@ -1,5 +1,5 @@
-import "./Register.css";
-import register from "../../images/register.jpg";
+import "../../static/style/Register.css";
+import register from "../../static/images/register.jpg";
 function Register() {
   return (
     <div className="register">
