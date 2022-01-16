@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 
-import SubmitBtn from '../../Components/SubmitBtn';
-import TextInput from '../../Components/TextInput';
+import SubmitBtn from '../../components/SubmitBtn';
+import TextInput from '../../components/TextInput';
 
 function ProjectContainer(){
     return (

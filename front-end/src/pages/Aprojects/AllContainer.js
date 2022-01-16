@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 
-import DropdownProject from '../../Components/DropdownProject';
+import DropdownProject from '../../components/DropdownProject';
 
 function AllContainer(){
     return (

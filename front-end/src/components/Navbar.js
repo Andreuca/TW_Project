@@ -1,5 +1,5 @@
 import "../static/style/grades.css";
-import Sidenav from "../Components/Sidenav"
+import Sidenav from "../components/Sidenav"
 
 function Navbar() {
     return (

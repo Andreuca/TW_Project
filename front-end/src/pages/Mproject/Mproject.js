@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 import "../../static/style/grades.css";
 
-import Navbar from "../../Components/Navbar"
+import Navbar from "../../components/Navbar"
 import ProjectContainer from './ProjectContainer';
 
 function Mproject() {

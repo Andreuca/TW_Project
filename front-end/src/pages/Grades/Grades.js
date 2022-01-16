@@ -2,8 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 import "../../static/style/grades.css";
 
-import Navbar from "../../Components/Navbar"
-import GradesContainer from './GradesContainer';
+
+import GradesContainer from "./GradesContainer"
+import Navbar from '../../components/Navbar';
 
 function Grades() {
     return (
