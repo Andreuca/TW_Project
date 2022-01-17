@@ -2,8 +2,7 @@
   height: 100vh;
   width: 100%;
   background-color: #545aea;
-  font-family: "DM Serif Display", serif;
-  text-align: center;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,73 +11,46 @@
 .login-container {
   background-color: white;
   display: flex;
-  min-width: 32%;
+  flex-direction: column;
   justify-content: center;
-  height: 560px;
-  padding-top: 35px;
+  padding: 50px 100px;
   border-radius: 50px;
 }
-
-.login-images {
-  padding-top: 25px;
+.login-container > h1 {
+  margin-bottom: 20px;
+}
+.login-image {
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
 }
 
-.user {
+.login-image >img{
   height: 100px;
   width: 100px;
 }
 
-input[type="email"],
-select,
-textarea {
-  width: 80%;
-  padding: 12px;
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.login-input {
+   width: 15rem;
+  padding: 0.75rem ;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
 }
-
-input[type="password"],
-select,
-textarea {
-  width: 80%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-.inputs {
-  padding-left: 70px;
-  font-size: 20px;
-}
-.password {
-  padding-top: 20px;
-}
-
-button {
-  margin: 12px 0 0;
-  width: 50%;
-  height: 44px;
-  border-radius: 6px;
-  background-color: #545aea;
-  color: white;
-  font-size: 25px;
+.login-btn{
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding:10px 15px;
+  background-color:#545aea ;
   border: none;
-}
+  color:#fff;
+  border-radius: 20px;
 
-.login-btn {
-  padding-top: 25px;
-  padding-bottom: 15px;
-}
-
-.link {
-  font-size: 20px;
-  font-weight: 400;
-}
-a {
-  color: rgb(90, 11, 194);
-  
 }
